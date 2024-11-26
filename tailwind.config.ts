@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'dark-blue': '#0a1763',
+      },
+      spacing: {
+        '25': '100px',
+      },
     },
   },
   plugins: [],
