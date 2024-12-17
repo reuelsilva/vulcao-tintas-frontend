@@ -1,10 +1,11 @@
 import Header from "./components/Header"
+import Main from "./components/Main"
 
 export default function Home() {
   return (
     <>
       <Header/>
-      <h1>Vulcão Tintas - Automotivas e Imobiliárias</h1>
+      <Main/>
     </>
   )
 }
