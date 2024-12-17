@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         'dark-blue': '#0a1763',
+        'regular-blue': '#004a87',
         'yellow': '#feed00'
       },
       spacing: {
