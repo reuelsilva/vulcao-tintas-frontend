@@ -10,10 +10,17 @@ const config: Config = {
     extend: {
       colors: {
         'dark-blue': '#0a1763',
+        'yellow': '#feed00'
       },
       spacing: {
+        '12.5': '50px',
         '25': '100px',
       },
+      gridTemplateColumns: {
+        'sm': 'minmax(0, 360px)',
+        'md': 'repeat(2, minmax(0, 360px))',
+        'lg': 'repeat(2, minmax(0, 400px))'
+      }
     },
   },
   plugins: [],
