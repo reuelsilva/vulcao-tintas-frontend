@@ -11,6 +11,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Vulcão Tintas - Automotiva e Imobiliária',
   description: 'Seja bem-vindo à Vulcão Tintas, sua loja completa para todas as suas necessidades de tintas e materiais de construção. Oferecemos uma ampla variedade de tintas de alta qualidade para projetos imobiliários e automotivos, garantindo resultados duradouros e profissionais.',
+  openGraph: {
+    images: ['https://i.ibb.co/TrrypMh/open-graph-vulcao-tintas.jpg'],
+    type: 'website',
+    siteName: 'Vulcão Tintas - Automotiva e Imobiliária',
+  }
 }
 
 export default function RootLayout({
